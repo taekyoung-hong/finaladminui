@@ -1,6 +1,7 @@
 import "./globals.css";
 import AdminHeader from './components/AdminHeader';
-import Ad302 from "./pages/ad301/Ad302";
+import Link from "next/link";
+
 
 export default function RootLayout({ children }) {
 
@@ -19,8 +20,10 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         <AdminHeader />
-        <Ad302 />
-
+        
+        { children }
+        
+        
 
       </body>
     </html>
