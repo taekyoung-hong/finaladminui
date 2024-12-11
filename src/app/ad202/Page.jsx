@@ -1,11 +1,15 @@
+import Link from 'next/link';
 import React from 'react';
 
-function Page(props) {
+function page(props) {
     return (
+        <>
         <div>
             
         </div>
+       
+        </>
     );
 }
 
-export default Page;
+export default page;

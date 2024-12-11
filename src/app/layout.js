@@ -20,10 +20,10 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         <AdminHeader />
-        
-        { children }
-        
-        
+
+        {children}
+
+
 
       </body>
     </html>

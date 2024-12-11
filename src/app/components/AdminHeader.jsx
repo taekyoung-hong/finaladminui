@@ -72,8 +72,8 @@ function Page() {
                                             {hoverMenu.userManagementSub1 && (
                                                 <ul className="dropdown-right">
                                                     <li className="dropdown-item-right"> <Link href="/ad201">회원 목록 조회</Link></li>
-                                                    <li className="dropdown-item-right"><Link href="/ad202">회원 신고 내역</Link></li>
-                                                    <li className="dropdown-item-right"><Link href="/ad203">경고 및 정지</Link></li>
+                                                    <li className="dropdown-item-right"><Link href="/">회원 신고 내역</Link></li>
+                                                    <li className="dropdown-item-right"><Link href="/">경고 및 정지</Link></li>
                                                 </ul>
                                             )}
                                         </li>
@@ -147,10 +147,10 @@ function Page() {
                                             {hoverMenu.pageManagementSub1 && (
                                                 <ul className="dropdown-right">
                                                     <li className="dropdown-item-right"><Link href="/ad401">의약품의 정의</Link></li>
-                                                    <li className="dropdown-item-right"><Link hefr="/ad402">의약품의 종류</Link></li>
-                                                    <li className="dropdown-item-right"><Link hefr="/ad403">의약품의 허가과정</Link></li>
-                                                    <li className="dropdown-item-right"><Link hefr="/ad404">신약과 제네릭</Link></li>
-                                                    <li className="dropdown-item-right"><Link hefr="/ad405">의약품의 관련 법령</Link></li>
+                                                    <li className="dropdown-item-right"><Link href="/ad402">의약품의 종류</Link></li>
+                                                    <li className="dropdown-item-right"><Link href="/ad403">의약품의 허가과정</Link></li>
+                                                    <li className="dropdown-item-right"><Link href="/ad404">신약과 제네릭</Link></li>
+                                                    <li className="dropdown-item-right"><Link href="/ad405">의약품의 관련 법령</Link></li>
                                                 </ul>
                                             )}
                                         </li>
@@ -161,9 +161,9 @@ function Page() {
                                             안전한 의약 생활
                                             {hoverMenu.pageManagementSub2 && (
                                                 <ul className="dropdown-right">
-                                                    <li className="dropdown-item-right"><Link hefr="/ad501">의약품 검색하기</Link></li>
-                                                    <li className="dropdown-item-right"><Link hefr="/ad502">부작용 검색하기</Link></li>
-                                                    <li className="dropdown-item-right"><Link hefr="/ad503">병용금기 검색하기</Link></li>
+                                                    <li className="dropdown-item-right"><Link href="/ad501">의약품 검색하기</Link></li>
+                                                    <li className="dropdown-item-right"><Link href="/ad502">부작용 검색하기</Link></li>
+                                                    <li className="dropdown-item-right"><Link href="/ad503">병용금기 검색하기</Link></li>
                                                 </ul>
                                             )}
                                         </li>
@@ -175,13 +175,13 @@ function Page() {
                                             생활 속 의약
                                             {hoverMenu.pageManagementSub3 && (
                                                 <ul className="dropdown-right">
-                                                    <li className="dropdown-item-right"><Link hefr="/ad601">약국 찾아보기</Link></li>
-                                                    <li className="dropdown-item-right"><Link hefr="/ad602">폐의약품 수거함 찾아보기</Link></li>
-                                                    <li className="dropdown-item-right"><Link hefr="/ad603">보도자료 찾아보기</Link></li>
+                                                    <li className="dropdown-item-right"><Link href="/ad601">약국 찾아보기</Link></li>
+                                                    <li className="dropdown-item-right"><Link href="/ad602">폐의약품 수거함 찾아보기</Link></li>
+                                                    <li className="dropdown-item-right"><Link href="/ad603">보도자료 찾아보기</Link></li>
                                                 </ul>
                                             )}
                                         </li>
-                                        <li className="dropdown-item"><Link hefr="/ad504">팝업 관리</Link></li>
+                                        <li className="dropdown-item"><Link href="/ad504">팝업 관리</Link></li>
                                     </ul>
                                 )}
                             </li>
@@ -196,10 +196,10 @@ function Page() {
                                 커뮤니티 관리
                                 {hoverMenu.communityManagement && (
                                     <ul className="dropdown">
-                                        <li className="dropdown-item"><Link hefr="/ad701">공지사항</Link></li>
-                                        <li className="dropdown-item"><Link hefr="/ad702">자주 묻는 질문</Link></li>
-                                        <li className="dropdown-item"><Link hefr="/ad703">전문가와의 상담</Link></li>
-                                        <li className="dropdown-item"><Link hefr="/ad704">운영진에게 문의</Link></li>
+                                        <li className="dropdown-item"><Link href="/ad701">공지사항</Link></li>
+                                        <li className="dropdown-item"><Link href="/ad702">자주 묻는 질문</Link></li>
+                                        <li className="dropdown-item"><Link href="/ad703">전문가와의 상담</Link></li>
+                                        <li className="dropdown-item"><Link href="/ad704">운영진에게 문의</Link></li>
                                     </ul>
                                 )}
                             </li>
